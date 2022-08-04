@@ -1,0 +1,44 @@
+html {
+  background-color: red;
+}
+#container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+#one {
+  height: 10vh;
+  width: 100vw;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#two {
+  height: 10vh;
+  width: 100vw;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+#two a {
+  margin-left: 20px;
+}
+#three {
+  height: 30vh;
+  width: 100vw;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#three img {
+  height: 150px;
+  width: 150px;
+}
+#four {
+  height: 10vh;
+  width: 100vw;
+  border: 2px solid black;
+}
