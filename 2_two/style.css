@@ -1,5 +1,5 @@
 html {
-  background-color: red;
+  background-color: cyan;
 }
 #container {
   border: 2px solid black;
@@ -34,11 +34,17 @@ html {
   align-items: center;
 }
 #three img {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
 }
 #four {
-  height: 10vh;
+  height: 20vh;
   width: 100vw;
   border: 2px solid black;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
