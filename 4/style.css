@@ -1,0 +1,34 @@
+/* universal selector */
+* {
+  font-family: cursive;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px rebeccapurple;
+}
+/* element selector */
+p {
+  color: red;
+  font-size: 32px;
+  font-weight: 300;
+}
+body {
+  /* background-color: greenyellow; */
+  background-image: url(tt.png);
+  background-color: transparent;
+}
+/* class selector */
+.blue {
+  color: blue;
+}
+/* id selector highest priority 
+it should be uniqe */
+#green {
+  color: green;
+}
+/* group selector */
+h1,
+h2 {
+  background-color: brown;
+  border: 2px dashed black !important;
+}
+article section {
+  background-color: cyan;
+}
