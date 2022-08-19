@@ -1,0 +1,70 @@
+/* border box */
+* {
+  /* content, padding ,width of boreder is included */
+  box-sizing: border-box;
+
+  /* content-box gives you the default CSS box-sizing behavior. */
+  /*padding ,width of boreder is  excluded*/
+  /* box-sizing: content-box; */
+  margin: 0;
+  /* font-family: cursive; */
+  background-color: greenyellow;
+}
+/* rem */
+header h1 {
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  font-size: 2rem;
+  /* padding-left: 10px; */
+  /* ye parent se inherit krega property */
+  padding: inherit;
+}
+/* em */
+header p {
+  /* border: 2px solid red; */
+  font-size: 1.3em;
+  margin-top: 50px;
+  /* padding: 5px; */
+  font-family: cursive;
+  text-shadow: 1px 1px 1px red, 2px 2px 1px rebeccapurple;
+  padding: 20px;
+}
+.container1 {
+  border: 2px solid red;
+  /* outline border ke uper hotA HAE */
+  outline: 5px solid gold;
+  /* OUTLINE OFFSET OUTLINE KO ANDER LETE AATA HAE */
+  outline-offset: -9px;
+
+  border-radius: 15px;
+}
+header {
+  padding-left: 10px;
+  margin-top: 50px;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border: 10px double black;
+  margin-left: 50vw;
+  margin-top: 50px;
+  outline: 5px solid blue;
+  outline-offset: -17px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+.circle:hover {
+  background-color: red;
+}
+p {
+  text-decoration: underline;
+
+  text-decoration: overline;
+  text-indent: 2rem;
+}
+p:hover {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
